@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>PickleTech</title>
+  <meta charset="UTF-8">
+  <title>Forced Fullscreen Image</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
-      height: 100%;
       background-color: #004aad;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
     }
 
     img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover; /* Crop the image nicely while covering the screen */
       display: block;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
-  <img src="pickle.png" alt="Full Screen Image">
+  <img src="pickle.png" alt="Full Screen">
 </body>
 </html>
